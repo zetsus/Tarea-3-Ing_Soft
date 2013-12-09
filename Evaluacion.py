@@ -76,8 +76,8 @@ class Evaluacion(object):
             if (type(NombreArticulo) == str) and (type(CorreoCP) == str) and \
             (type(Nota) == int) and (1 <= Nota) and (Nota <= 5):
 
-                #Elimino espacios antes del primer caracter
-                #Elimino espacion despues del ultimo caracter
+                # Elimino espacios antes del primer caracter
+                # Elimino espacion despues del ultimo caracter
                 NombreArticulo = NombreArticulo.strip()
                 CorreoCP = CorreoCP.strip()
                 # chequeo que exista el articulo
@@ -93,7 +93,7 @@ class Evaluacion(object):
                 # cheque que la persona pertenesca al cp
                 Esta2 = False
                 for i in self.__cp:
-                    #Si el articulo no esta
+                    # Si el articulo no esta
                     if not Esta1:
                         break
 

@@ -6,12 +6,13 @@ Created on 23/11/2013
 @author: ubuntu
 '''
 
+import sys
+
 from Articulo import Articulo
 from CP import CP
 from Evaluacion import Evaluacion
 from Persona import Persona
 from Topico import Topico
-import sys
 
 
 # variables globales
